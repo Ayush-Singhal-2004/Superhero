@@ -1,0 +1,49 @@
+body{
+    background-color: #94618e;
+}
+.my-heading{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.my-heading span{
+    color: red;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+}
+.my-btn{
+    height: 8vh;
+}
+#left-btn{
+    margin-left: 8px;
+    margin-right: 4px;
+}
+#right-btn{
+    margin-right: 8px;
+    margin-left: 4px;
+}
+.my-nav-padding{
+    padding-top: 0px;
+}
+#err-mssg{
+    background-color: rgb(255, 93, 93);
+    color: white;
+    padding-left: 1vw;
+    display: flex;
+    align-items: center;
+    display: none;
+}
+#err-mssg h6{
+    margin-top: 6px;
+}
+#err-mssg-btn{
+    background: transparent;
+    border: 1px solid white;
+    color : white;
+    position: relative;
+    margin-left: auto;  
+    width: 2.5em;
+}
